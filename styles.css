@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 3rem;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+  margin: 100px 100px 300px;
+}
+
+a:hover {
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+    color: lightsalmon !important;
+}
+
+.container-fluid {
+  text-align: center;
+  /* padding: 20rem 0; */
+}
+
+#firstTitle {
+  background-color: lightsalmon;
+}
+
+#secondTitle {
+  background-color: white;
+}
+
+.titoli {
+  padding: 15rem 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.lightsalmon {
+  color: lightsalmon;
+}
+
+.white {
+  color: white;
+}
+
+#buttonBackground {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#secondBackground {
+  background-color: white;
+  background: url('images/bg.jpg');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 0 100rem;
+  position: relative;
+  z-index: 1;
+}
+
+#thirdBackground {
+  position: absolute;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  height: 30%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0;
+  z-index: 2;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+#thirdBackground:hover {
+  opacity: 0;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+#thirdBackground:hover #presentation {
+  color: lightsalmon;
+  opacity: 1;
+}
+
+#footer {
+  background-color: lightsalmon;
+  padding: 100px;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 900;
+  font-size: 500%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 900;
+  color: lightsalmon;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 25% 0;
+  z-index: 3;
+}
+
+p {
+  font-family: "Inconsolata", monospace;
+  font-size: 2vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  margin: 0 auto;
+  padding: 120px 20px 0;
+}
+
+#footerText {
+  font-size: 1rem;
+  color: white;
+}
